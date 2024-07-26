@@ -2,8 +2,8 @@
 Repo for all code and data associated with my Data Science Thesis 2024.
 #
 
- 1. Get_The_Data.ipynb
-#   1.1 Gets a list of products that have ever had a fund switch.
+# 1. Get_The_Data.ipynb
+    1.1 Gets a list of products that have ever had a fund switch.
     1.2 Use this list of products to get the full population of policies that can possibly switch funds.
     1.3 Create the file \Full_Population.csv
 
@@ -13,7 +13,7 @@ Repo for all code and data associated with my Data Science Thesis 2024.
     2.4 Merge the Paxus and iSuite fund switches.
     2.5 Create the file \All_Switches.csv
 
- 2. Get_The_Total_Fund_Switch_Population.ipynb
+# 2. Get_The_Total_Fund_Switch_Population.ipynb
     2.1 Read the file \Full_Population.csv and clean the data.
     2.2 Create a dataframe to count the number of switchable policies per month.
     2.3 Read the file \All_Switches.csv and clean the data.
