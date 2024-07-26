@@ -3,7 +3,7 @@ Repo for all code and data associated with my Data Science Thesis 2024.
 #
 
  1. Get_The_Data.ipynb
-    1.1 Gets a list of products that have ever had a fund switch.
+#   1.1 Gets a list of products that have ever had a fund switch.
     1.2 Use this list of products to get the full population of policies that can possibly switch funds.
     1.3 Create the file \Full_Population.csv
 
