@@ -21,12 +21,12 @@ Repo for all code and data associated with my Data Science Thesis 2024.
     2.5 Merge the full population counts with the switch counts.
     2.6 Create the file \Horizon_Switch_Counts.csv
     
- 3. Analyse_Fund_Switch_Data.ipynb
+# 3. Analyse_Fund_Switch_Data.ipynb
     3.1 Read the switchable funds/switch counts file \Horizon_Switch_Counts.csv
     3.2 Look at the distribution of the data.
     3.3 Found a spike in fund switches.  Analysis shows that this is downw to a fund closure on those dates
         
- 4. Fix_the_Closed_Funds_Problem.ipynb
+# 4. Fix_the_Closed_Funds_Problem.ipynb
     4.1 Read back the dataset of all switches.
     4.2 Create a new dataframe with switches for the fund close date range.
     4.3 Get a list of policies that were involved in a fund closure.
@@ -40,9 +40,9 @@ Repo for all code and data associated with my Data Science Thesis 2024.
     4.11 Drop duplicate policy numbers.
     4.12 recount - Not working on the recount.  I edited the file myself to continue.
 
- 5. Re-Analyse_Fund_Switch_Data.ipynb
+# 5. Re-Analyse_Fund_Switch_Data.ipynb
  
- 6. Calculate_Historical_Fund_Switches.ipynb
+# 6. Calculate_Historical_Fund_Switches.ipynb
     6.1 Get all switchable policies
     6.2 Filter to only take rows since 2020.
     6.3 Set the dates for historical switches.
@@ -52,7 +52,7 @@ Repo for all code and data associated with my Data Science Thesis 2024.
     6.7 Add the comparable past switch dates for comparison.
     6.8 No significant past fund switch activity indicating potential future switches so no need to proceed.
 
-7. Get supplementary policy features. Switch data has been sourced and analysed so now supplement the data with various features identified in the thesis.
+# 7. Get supplementary policy features. Switch data has been sourced and analysed so now supplement the data with various features identified in the thesis.
    This builds towards a dataset which will be split.  One portion to be used in the training and evaluaio of the ML model an the other to run the prediction.
    7.1 Get_Tax_Fee_and_Risk_Attributes.ipynb - Get tax, policy fee and risk attributes as potential prodective features.  Tests the distribution of all features and only keeps ones with a
        distribution that may help prediction/classification.
