@@ -82,6 +82,18 @@ This builds towards a dataset which will be split.  One portion to be used in th
 # 12. Customer_And_Policy_Attributes.ipynb.
     12.1 Merges all of the data to product a final file that, after synthesisation, will be loaded into the Data Robot catalog.
     
+# 13. Get_Market_Index_Data.ipynb. All indices were identified to match the fund base of the subject company.
+    13.1. Add in the Yahoo Finance Index data.
+    13.2. Get the market equity indices data. Dow Jones, Nasdaq, S&P, etc
+    13.2. Get the market futures indices data.
+    13.2. Get the market Bond indices.
+    13.2. Get the market Commodities indices.
+    13.2. Get the market Currencies indices.
+    13.2. Get the market Volatility indices.
+    13.2. Merge all dataframes.
+    13.2. Get the market Volatility indices.
+    13.2. Get the market Volatility indices.
+    
 # 13. Synthesisation - This is split because of memory constraints.
     13.1  Synthesise_Full_Horizon_Tranche1.ipynb - Create and fit teh synthesiser.
     13.2  Synthesise_Full_Horizon_Tranche1.ipynb - Synthesise the first 3m plus records.
