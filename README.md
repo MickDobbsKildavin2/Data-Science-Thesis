@@ -52,36 +52,32 @@ Repo for all code and data associated with my Data Science Thesis 2024.
     6.7 Add the comparable past switch dates for comparison.
     6.8 No significant past fund switch activity indicating potential future switches so no need to proceed.
 
-# 7. Get supplementary policy features. Switch data has been sourced and analysed so now supplement the data with various features identified in the thesis.
-    6.1 Get all switchable policies
+# Get supplementary policy features. Switch data has been sourced and analysed so now supplement the data with various features identified in the thesis.
+This builds towards a dataset which will be split.  One portion to be used in the training and evaluaio of the ML model an the other to run the prediction.
+  
+# 7. Get_Tax_Fee_and_Risk_Attributes.ipynb 
+    7.1 Get tax attributes as potential prodective features.  Tests the distribution of all features and only keeps ones with a distribution that may help prediction/classification.
+    7.2 Get policy feeattributes as potential prodective features.  Tests the distribution of all features and only keeps ones with a distribution that may help prediction/classification.
+    7.3 Get risk attributes as potential prodective features.  Tests the distribution of all features and only keeps ones with a distribution that may help prediction/classification.
 
-# 7. Get supplementary policy features. Switch data has been sourced and analysed so now supplement the data with various features identified in the thesis.
-    6.1 Get all switchable policies
+# 8. Get_Asset_Attributes.ipynb.
+    8.1 Get fund asset attributes as potential prodective features.  
+    8.2 Tests the distribution of all features and only keeps ones with a distribution that may help prediction/classification.
 
-# 7. Get supplementary policy features. Switch data has been sourced and analysed so now supplement the data with various features identified in the thesis.
-    6.1 Get all switchable policies
+# 9. Get_Premium_Attributes.ipynb.
+    9.1 Get premium and premiun indexationattributes as potential prodective features.  
+    9.2 Tests the distribution of all features and only keeps ones with a distribution that may help prediction/classification.
 
-# 7. Get supplementary policy features. Switch data has been sourced and analysed so now supplement the data with various features identified in the thesis.
-    6.1 Get all switchable policies
-    6.2 Filter to only take rows since 2020.
-    6.3 Set the dates for historical switches.
-    6.4 Get all fund switch records.
-    6.5 Filter to only take rows since 2020.
-    6.6 Merge the full population with the switches to create the prediction dataset.
-    6.7 Add the comparable past switch dates for comparison.
-    6.8 No significant past fund switch activity indicating potential future switches so no need to proceed.
-
-# 7. 
-   This builds towards a dataset which will be split.  One portion to be used in the training and evaluaio of the ML model an the other to run the prediction.
-    7.1 Get_Tax_Fee_and_Risk_Attributes.ipynb - Get tax, policy fee and risk attributes as potential prodective features.  Tests the distribution of all features and only keeps ones with a
-       distribution that may help prediction/classification.
-    7.2 Get_Asset_Attributes.ipynb- Get fund asset attributes as potential prodective features.  Tests the distribution of all features and only keeps ones with a distribution that may help 
-       prediction/classification.
-    7.3 Get_Premium_Attributes.ipynb- Get premium and premiun indexationattributes as potential prodective features.  Tests the distribution of all features and only keeps ones with a
-       distribution that may help prediction/classification.
-    7.4 Get_Broker_Attributes.ipynb - Get broker and commission attributes as potential prodective features.  Tests the distribution of all features and only keeps ones with a distribution 
-       that may help prediction/classification.
-    7.5 Get_Client_Attributes.ipynb - Get client attributes, address information and market segmentation data as potential prodective features.  Tests the distribution of all features and 
-       only keeps ones with a distribution that may help prediction/classification.
-    7.6 Customer_And_Policy_Attributes.ipynb - Merges all of the data to product a final file that, after synthesisation, will be loaded into the Data Robot catalog.
+# 10. Get_Broker_Attributes.ipynb.
+    10.1 Get broker attributes.
+    10.2 Get commission attributes.
+    10.3 Test the distribution of all features and only keeps ones with a distribution that may help prediction/classification.
     
+# 11. Get_Client_Attributes.ipynb.
+    11.1 Get client attributes as potential prodective features.  
+    11.2 Get address information as potential prodective features.
+    11.3 Get market segmentation data as potential prodective features.
+    11.4 Test the distribution of all features and only keeps ones with a distribution that may help prediction/classification.
+    
+# 12. Customer_And_Policy_Attributes.ipynb.
+    12.1 Merges all of the data to product a final file that, after synthesisation, will be loaded into the Data Robot catalog.
