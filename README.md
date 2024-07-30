@@ -54,14 +54,15 @@ Repo for all code and data associated with my Data Science Thesis 2024.
 
 # 7. Get supplementary policy features. Switch data has been sourced and analysed so now supplement the data with various features identified in the thesis.
    This builds towards a dataset which will be split.  One portion to be used in the training and evaluaio of the ML model an the other to run the prediction.
-   7.1 Get_Tax_Fee_and_Risk_Attributes.ipynb - Get tax, policy fee and risk attributes as potential prodective features.  Tests the distribution of all features and only keeps ones with a
+    7.1 Get_Tax_Fee_and_Risk_Attributes.ipynb - Get tax, policy fee and risk attributes as potential prodective features.  Tests the distribution of all features and only keeps ones with a
        distribution that may help prediction/classification.
-   7.2 Get_Asset_Attributes.ipynb- Get fund asset attributes as potential prodective features.  Tests the distribution of all features and only keeps ones with a distribution that may help 
+    7.2 Get_Asset_Attributes.ipynb- Get fund asset attributes as potential prodective features.  Tests the distribution of all features and only keeps ones with a distribution that may help 
        prediction/classification.
-   7.3 Get_Premium_Attributes.ipynb- Get premium and premiun indexationattributes as potential prodective features.  Tests the distribution of all features and only keeps ones with a
+    7.3 Get_Premium_Attributes.ipynb- Get premium and premiun indexationattributes as potential prodective features.  Tests the distribution of all features and only keeps ones with a
        distribution that may help prediction/classification.
-   7.4 Get_Broker_Attributes.ipynb - Get broker and commission attributes as potential prodective features.  Tests the distribution of all features and only keeps ones with a distribution 
+    7.4 Get_Broker_Attributes.ipynb - Get broker and commission attributes as potential prodective features.  Tests the distribution of all features and only keeps ones with a distribution 
        that may help prediction/classification.
-   7.5 Get_Client_Attributes.ipynb - Get client attributes, address information and market segmentation data as potential prodective features.  Tests the distribution of all features and 
+    7.5 Get_Client_Attributes.ipynb - Get client attributes, address information and market segmentation data as potential prodective features.  Tests the distribution of all features and 
        only keeps ones with a distribution that may help prediction/classification.
-   7.6 Customer_And_Policy_Attributes.ipynb - Merges all of the data to product a final file that, after synthesisation, will be loaded into the Data Robot catalog.
+    7.6 Customer_And_Policy_Attributes.ipynb - Merges all of the data to product a final file that, after synthesisation, will be loaded into the Data Robot catalog.
+    
