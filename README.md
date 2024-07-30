@@ -81,3 +81,11 @@ This builds towards a dataset which will be split.  One portion to be used in th
     
 # 12. Customer_And_Policy_Attributes.ipynb.
     12.1 Merges all of the data to product a final file that, after synthesisation, will be loaded into the Data Robot catalog.
+    
+# 13. Synthesisation - This is split because of memory constraints.
+    13.1  Synthesise_Full_Horizon_Tranche1.ipynb - Create and fit teh synthesiser.
+    13.2  Synthesise_Full_Horizon_Tranche1.ipynb - Synthesise the first 3m plus records.
+    13.3  switch_data_synthesizer.pkl - The synthesiser created by the first pass.
+    13.4  Synthesise_Full_Horizon_Tranche2.ipynb - Use the pickle file to synthesise the last 3m plus records.
+    13.5  Merge_Synthesised_Tranches.ipynb - Merge all data to a file that will be loaded into the Data Robot catalog..
+    
